@@ -14,7 +14,7 @@ class blob{
 	isNear(x,y){
 		var cx = (this.minx + this.maxx)/2
 		var cy = (this.miny + this.maxy)/2
-		var d = dist(cx,cy,x,y)
+		var d = Dist(cx,cy,x,y)
 
 		if (d < distthreshold**2){
 			return true
